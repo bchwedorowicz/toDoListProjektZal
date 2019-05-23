@@ -1,0 +1,14 @@
+li {
+  background: rgb(201, 226, 235);
+  margin: 5px;
+}
+
+.odd-li {
+  background: rgb(204, 182, 185);
+  margin: 5px;
+}
+
+.last-li {
+  background: rgb(221, 105, 105);
+  margin: 5px;
+}

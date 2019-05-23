@@ -1,0 +1,9 @@
+ <p>
+    Done tasks:
+  </p>
+  <ul>
+    <li appChecked appShowDate [date]="doneTask.doneDate" *ngFor="let doneTask of doneTasks">
+      {{doneTask.taskName}}
+    </li>
+  </ul>
+
